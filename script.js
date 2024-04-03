@@ -3,7 +3,7 @@ const form = document.querySelector("form"),
     backBtn = form.querySelector(".backBtn"),
     allInput = form.querySelectorAll(".first input");
 
-
+// h
 nextBtn.addEventListener("click", () => {
     allInput.forEach(input => {
         if (input.value != "") {
