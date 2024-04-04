@@ -18,7 +18,7 @@
     <div class="container">
         <header>Registration</header>
 
-        <form action="#">
+        <form action="register_action.php" method="post">
             <div class="form first">
                 <div class="details personal">
                     <span class="title">Personal Details</span>
