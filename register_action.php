@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "!kwqFYObck=6";
+$password = getenv("MYSQLPASS") ?? "";
 $database = "api"; 
 
 // Create connection
