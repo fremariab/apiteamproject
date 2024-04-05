@@ -1,6 +1,4 @@
-$(document).ready(function () {
-  console.log("test");
-});
+$(document).ready(function () {});
 
 $("#submit").click(function (event) {
   var formData = "name=" + $("#fullname").val() + "&email=" + $("#email").val();

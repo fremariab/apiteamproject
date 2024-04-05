@@ -26,3 +26,4 @@ if ($requestMethod == "POST") {
     header("HTTP/1.0 405 Method Not Allowed");
     echo json_encode($data);
 }
+?>
