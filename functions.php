@@ -14,8 +14,8 @@ function error422($message)
 function storeUser($user_data)
 {
     global $conn;
-    $full_name = mysqli_escape_string($conn, $user_data['name']);
-    $email = mysqli_escape_string($conn, $user_data['email']);
+    $full_name = mysqli_escape_string($conn, $user_data->name);
+    $email = mysqli_escape_string($conn, $user_data->email);
 
     if (empty(trim($full_name))) {
         return error422("Enter your full name");

@@ -22,9 +22,8 @@
                 <input type="text" name="fullname" id="fullname" placeholder="Full Name" required /><br>
                 <input type="email" name="email" id="email" placeholder="Email" required />
                 <br>
-                <a href="get.php"> <input type="button" id="submit" value="Submit" name="volsubmit"
+                 <input type="button" id="submit" value="Submit" name="volsubmit"
                         class="vol-button" />
-                </a>
             </form>
         </div>
     </div>
