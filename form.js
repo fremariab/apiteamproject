@@ -16,8 +16,6 @@ function sendRequest(data) {
 
     if (ajax.status == 201) {
       window.location.href = "get.php";
-    } else {
-      console.error("Error:", ajax.statusText);
     }
   };
 
