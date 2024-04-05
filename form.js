@@ -6,7 +6,7 @@ $("#submit").click(function (event) {
   event.preventDefault();
 
   $.ajax({
-    url: "./insert.php",
+    url: "insert.php",
     method: "post",
     data: JSON.stringify({
       name: $("#fullname").val(),
@@ -22,25 +22,25 @@ $("#submit").click(function (event) {
   });
 });
 
-function sendRequest(data) {
-  // create xmlhttprequest object
-  const ajax = new XMLHttpRequest();
+// function sendRequest(data) {
+//   // create xmlhttprequest object
+//   const ajax = new XMLHttpRequest();
 
-  // create onload function (response is handled here)
-  ajax.onload = function () {
-    console.log(ajax.responseText);
+//   // create onload function (response is handled here)
+//   ajax.onload = function () {
+//     console.log(ajax.responseText);
 
-    if (ajax.status == 201) {
-      window.location.href = "get.php";
-    }
-  };
+//     if (ajax.status == 201) {
+//       window.location.href = "get.php";
+//     }
+//   };
 
-  // open the request
-  ajax.open("POST", "insert.php");
+//   // open the request
+//   ajax.open("POST", "insert.php");
 
-  // set headers
-  ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+//   // set headers
+//   ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-  // send the request
-  ajax.send(data); // depending on the method you will have to put something in the brackets
-}
+//   // send the request
+//   ajax.send(data); // depending on the method you will have to put something in the brackets
+// }
