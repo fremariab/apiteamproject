@@ -25,6 +25,10 @@
                 <br>
                 <input type="button" id="submit" value="Submit" name="volsubmit" class="vol-button" />
             </form>
+            <div>Volunteers:</div>
+            <div id="gname"></div>
+            <div id="gemail"></div>
+            
         </div>
     </div>
     <script src="form.js"></script>

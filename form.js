@@ -1,8 +1,5 @@
-// $(document).ready(function () {});
-
+/*form.js */
 $("#submit").click(function (event) {
-  //var formData = "name=" + $("#fullname").val() + "&email=" + $("#email").val();
-  //sendRequest(formData);
   event.preventDefault();
 
   $.ajax({
@@ -15,6 +12,7 @@ $("#submit").click(function (event) {
     dataType: "json",
     success: (data, status) => {
       console.log(data, status);
+      window.location.href = "get.php";
     },
     error: (error) => {
       console.log(error);

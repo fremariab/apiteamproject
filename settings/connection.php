@@ -1,16 +1,9 @@
 <?php
-// $servername = "172.166.117.107";
 $servername = "127.0.0.1";
-// $servername = "127.0.0.1:8888";
 
 $username = "root";
 $password = "!kwqFYObck=6";
 $database = "api";
-
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $database = "api";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
