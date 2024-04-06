@@ -14,7 +14,7 @@
 <body>
     <div class="vol">
         <div class="vol-header">
-            <h1>Volunteer Form</h1>
+            <h1>Volunteering Form</h1>
         </div>
         <div class="vol-form" id="volunteerForm">
             <form method="post" id="form">
@@ -22,8 +22,7 @@
                 <input type="text" name="fullname" id="fullname" placeholder="Full Name" required /><br>
                 <input type="email" name="email" id="email" placeholder="Email" required />
                 <br>
-                 <input type="button" id="submit" value="Submit" name="volsubmit"
-                        class="vol-button" />
+                <input type="button" id="submit" value="Submit" name="volsubmit" class="vol-button" />
             </form>
         </div>
     </div>
