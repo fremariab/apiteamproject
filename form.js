@@ -6,7 +6,7 @@ $("#submit").click(function (event) {
   event.preventDefault();
 
   $.ajax({
-    url: "insert.php",
+    url: "http://172.166.117.107/apiteamproject/insert.php",
     method: "post",
     data: JSON.stringify({
       name: $("#fullname").val(),
