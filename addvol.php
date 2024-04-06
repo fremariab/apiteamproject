@@ -15,7 +15,7 @@
 <body>
     <div class="vol">
         <div class="vol-header">
-            <h1 id="hhead">Volunteering Form</h1>
+            <h1 id="hhead">Volunteer Form</h1>
         </div>
         <div class="vol-form" id="volunteerForm">
             <form method="post" id="form">

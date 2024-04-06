@@ -12,7 +12,7 @@ $("#submit").click(function (event) {
       name: $("#fullname").val(),
       email: $("#email").val(),
     }),
-    dataType: "JSON",
+    dataType: "json",
     success: (data, status) => {
       console.log(data, status);
     },
