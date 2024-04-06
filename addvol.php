@@ -15,11 +15,11 @@
 <body>
     <div class="vol">
         <div class="vol-header">
-            <h1>Volunteering Form</h1>
+            <h1 id="hhead">Volunteering Form</h1>
         </div>
         <div class="vol-form" id="volunteerForm">
             <form method="post" id="form">
-                <label for="">Enter your details:</label>
+                <label for="dets">Enter your details:</label>
                 <input type="text" name="fullname" id="fullname" placeholder="Full Name" required /><br>
                 <input type="email" name="email" id="email" placeholder="Email" required />
                 <br>
