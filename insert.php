@@ -6,7 +6,7 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Method: GET');
 header('Access-Control-Allow-Headers: Content-Type,Access-Control-Allow-Headers, Authorization, X-Request-With');
 
-include ('functions.php');
+include ('./functions.php');
 
 $inputData = json_decode(file_get_contents("php://input"));
 
@@ -16,7 +16,7 @@ if (empty($inputData)) {
     $res["msg"] = "No data received";
     echo json_encode($res);
     exit();
-} 
+}
 $storeUser = storeUser($inputData);
 
 // $res["msg"] = ;
@@ -47,4 +47,4 @@ echo $storeUser;
 //     header("HTTP/1.0 405 Method Not Allowed");
 //     echo json_encode($data);
 // }
-// ?>
+//  ?>

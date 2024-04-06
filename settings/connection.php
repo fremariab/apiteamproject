@@ -1,6 +1,7 @@
 <?php
-// $servername = "172.166.117.107";
-$servername = "127.0.0.1";
+$servername = "172.166.117.107";
+// $servername = "127.0.0.1";
+// $servername = "127.0.0.1:8888";
 
 $username = "root";
 $password = "!kwqFYObck=6";
